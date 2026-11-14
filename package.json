@@ -1,0 +1,14 @@
+{
+  "name": "stephane-peillet-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stéphane Peillet — AI, grounded in geography.",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
